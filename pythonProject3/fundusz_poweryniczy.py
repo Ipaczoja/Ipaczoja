@@ -1,0 +1,10 @@
+print("Program Fundusz powernyczy")
+print("Sumuje Twoje wszystkie wydatki w miesiącu i sprawdza czy twój fundusz się nie wyczerpał")
+print("Wprowadż swoje miesięczne wydatki i nei krępuj się w końcu masz fundusz ;)")
+car = int(input("Samochód: "))
+apartament = int(input("Apartament: "))
+jet = int(input("Prywatny samolot: "))
+dinner = int(input("Obiady w restauracjach: "))
+games = int(input("Gry komputerowe: "))
+total = car+apartament+jet+dinner+games
+print("Ogółem: ", total)
